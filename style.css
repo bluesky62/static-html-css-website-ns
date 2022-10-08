@@ -1,0 +1,205 @@
+body {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #222;
+    margin: 0;
+
+
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.column,
+.columns {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+#first-div {
+    background-color: #000;
+    min-height: 100vh;
+}
+
+#first-div-title {
+    color: #fff;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+#first-div-subtitle {
+    color: #fff;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+#first-div-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 20vh;
+
+}
+
+#second-div {
+    background-color: #fff;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#second-div-text {
+    order: 1;
+    flex-grow: 1;
+    min-width: 30%;
+    margin-top: 25vh;
+    font-size: 2.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 25vh;
+
+}
+
+#sachin-tendulakar-quote {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#second-div-image {
+    order: 2;
+    flex-grow: 1;
+    min-width: 45%;
+    align-self: flex-end;
+    max-width: 600px;
+}
+
+#sachin-tendulakar-image {
+    max-width: 100%;
+    box-sizing: border-box;
+    float: right;
+    width: 600px;
+    height: 600px;
+}
+
+img {
+    border: 0;
+
+}
+
+#third-div {
+    background-color: #000;
+    min-height: 100vh;
+    padding-bottom: 2vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+#third-div-content {
+    color: #fff;
+    font-family: 'Lora', serif;
+    margin-top: 5.5em;
+    margin-bottom: 2em;
+}
+
+#third-div-title {
+    font-size: 4em;
+}
+
+h1 {
+    font-size: 4.0rem;
+    line-height: 1.2;
+    letter-spacing: 0.1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+
+p {
+    margin: 0;
+}
+
+h5 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+
+}
+
+hr {
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+    border-width: 0;
+    border-top: 1px solid #E1E1E1;
+}
+
+#auther-text {
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 2vw;
+}
+
+a {
+    color: #1EAEDB;
+}
+
+.container:after,
+.row:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+@media (min-width: 550px) {
+    .container {
+        width: 80%;
+    }
+
+    .twelve.columns {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 5.0rem;
+    }
+
+    h3 {
+        font-size: 3.6rem;
+    }
+}
+
+@media (min-width: 400px) {
+    .container {
+        width: 85%;
+        padding: 0;
+    }
+}
